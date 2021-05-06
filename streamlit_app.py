@@ -1,3 +1,13 @@
+import pandas as pd
+import requests
+import matplotlib.pyplot as plt
+from bs4 import BeautifulSoup
+import json
+import base64
+import cufflinks as cf
+import yfinance as yf
+import datetime
+
 st.set_page_config(layout="wide")
 st.sidebar.title('Options')
 option = st.sidebar.selectbox("Select Dashboard", ('S&P 500 Companies',  'Crypto', 'Stocktwits', 'Stock'), 3)

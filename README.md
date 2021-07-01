@@ -4,4 +4,4 @@ It is designed in python language and runs on streamlit. You can visit the app b
 
   LINK - https://share.streamlit.io/ranvijaysingh369/financialdashboard/main
   
-  Feel free to suggest edits or improvements to it
+  Feel free to suggest edits or improvements to the dashboard

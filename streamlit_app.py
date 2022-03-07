@@ -47,7 +47,7 @@ def price_plot(symbol):
 #Function to load Crypto data
 @st.cache
 def load_data():
-    cmc = requests.get('https://coinmarketcap.com')
+    cmc = requests.get('https://finance.yahoo.com/cryptocurrencies/')
     soup = BeautifulSoup(cmc.content, 'html.parser')
 
     data = soup.find('script', id='__NEXT_DATA__', type='application/json')
